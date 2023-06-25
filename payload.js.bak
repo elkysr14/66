@@ -69,6 +69,36 @@ LoadedMSG="<br>★GoldHEN v2.2.4 Loaded !!!";
 PLfile = "goldhen224.bin";
 toogle_payload();
 }
+
+function load_goldhen23(){
+LoadedMSG="<br>★GoldHEN v2.3 Loaded !!!";
+PLfile = "goldhen23.bin";
+toogle_payload();
+}
+
+function load_goldhen222(){
+LoadedMSG="<br>★GoldHEN v2.2.2 Loaded !!!";
+PLfile = "goldhen222.bin";
+toogle_payload();
+}
+
+function load_goldhen212(){
+LoadedMSG="<br>★GoldHEN v2.1.2 Loaded !!!";
+PLfile = "goldhen212.bin";
+toogle_payload();
+}
+
+function load_goldhen2b2(){
+LoadedMSG="<br>★GoldHEN v2.0B2 Loaded !!!";
+PLfile = "goldhen2b2.bin";
+toogle_payload();
+}
+
+function load_goldhen20b(){
+LoadedMSG="<br>★GoldHEN v2.0B Loaded !!!";
+PLfile = "goldhen20b.bin";
+toogle_payload();
+}
 function transitionPage(){
     // Hide to left / show from left
     $("#enter").toggle("slide", {direction: "left"}, 500);
